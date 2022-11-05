@@ -1,0 +1,59 @@
+body
+{
+    background-color: bisque;
+}
+#score
+{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+}
+#timer
+{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    margin-right: 75px;
+}
+#sketch
+{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#confidence
+{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sketch_to_draw
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1
+{
+    background-color: lightgrey;
+    color: darkcyan;
+    border-radius: 40px;
+    border-color: coral;
+    border-width: 480px;
+}
+canvas
+{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 130px;
+    animation-name: shine;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shine
+{
+    from{box-shadow: 1px 1px 40px darkcyan}
+    to{box-shadow: 1px 1px 40px lightblue}
+}
+#show_sketch
+{
+    float: right;
+    margin-right: 20px;
+}
